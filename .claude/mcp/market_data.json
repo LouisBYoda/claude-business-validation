@@ -1,0 +1,5 @@
+{
+  "name": "market_data",
+  "enabled": true,
+  "notes": "Stub. Add sources for TAM/SAM/SOM (e.g., vendor APIs, datasets)."
+}

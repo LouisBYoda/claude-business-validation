@@ -1,1 +1,5 @@
-# MVP Template\n\nChecklist for MVP validation.
+# MVP Validation — Template
+- Problem / JTBD
+- MVP scope
+- User journey
+- Acceptance criteria & success metrics

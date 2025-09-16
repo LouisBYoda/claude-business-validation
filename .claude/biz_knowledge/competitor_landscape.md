@@ -1,1 +1,4 @@
-# Competitor Landscape\n\nKnown players in ZK / AI / blockchain.
+# Competitor Landscape (starter)
+- ZK infrastructure providers
+- FHE/TEE alternatives
+- AI audit/compliance tools

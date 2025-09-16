@@ -1,0 +1,10 @@
+{
+  "default_model_planning": "opus",
+  "default_model_execution": "sonnet",
+  "allow_shell": false,
+  "allow_network": true,
+  "policies": {
+    "structured_outputs": true,
+    "use_templates": true
+  }
+}

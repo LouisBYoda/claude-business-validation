@@ -1,1 +1,4 @@
-# Search Specialist Agent\n\nFinds specific facts, data points.
+# search_specialist
+
+- Patch missing facts for all outputs
+- Append sources inline in the target files

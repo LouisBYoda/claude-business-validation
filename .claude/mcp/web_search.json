@@ -1,0 +1,5 @@
+{
+  "name": "web_search",
+  "enabled": true,
+  "notes": "Stub. Configure endpoints/keys for news/trends/search providers."
+}

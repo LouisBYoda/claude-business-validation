@@ -1,1 +1,5 @@
-# Market Template\n\nFramework for TAM/SAM/SOM analysis.
+# Market Analysis — Template
+- TAM/SAM/SOM methodology
+- Sizing with sources
+- ICPs / segments
+- Buying criteria & barriers

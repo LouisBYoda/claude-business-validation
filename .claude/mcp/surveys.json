@@ -1,0 +1,5 @@
+{
+  "name": "surveys",
+  "enabled": true,
+  "notes": "Stub. Connect to Typeform/Google Forms or internal survey tools."
+}
