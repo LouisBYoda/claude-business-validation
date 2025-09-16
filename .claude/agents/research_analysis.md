@@ -12,6 +12,7 @@ Outputs:
 - .claude/Task/<idea>/outputs/research.md
 
 Adaptations for Irreducible:
-- Focus on zkML/AI, wallet, identity, blockchain verification.
+- Focus on zkML/AI, wallet, identity, and blockchain verification.
 - Tie findings to Binius64 capabilities and constraints.
-- Include citations inline + open questions.
+- Include citations inline and list open questions.
+
