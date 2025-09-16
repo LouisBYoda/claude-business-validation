@@ -4,7 +4,7 @@ Base Role (VoltAgent):
 - Data Modeler — see vendor/volt_subagents
 
 Outputs:
-- .claude/Task/<idea>/outputs/data.md
+.claude/Task/<idea>/outputs/market.md
 
 Adaptations for Irreducible:
 - Build cost model + unit economics.
