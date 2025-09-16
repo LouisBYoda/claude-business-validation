@@ -1,1 +1,13 @@
-# AI Verification Context\n\nIdea-specific notes and evolving context.
+# Context — AI Verification
+
+## Problem Statement
+[To be filled in]
+
+## Useful Pointers
+- (Add links, notes, constraints)
+
+## Must-Answer Questions
+- MVP scope?
+- Performance targets?
+- Who are buyers/users?
+- Risks/costs?
