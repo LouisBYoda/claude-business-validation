@@ -9,7 +9,7 @@ Inputs:
 - MCPs: web_search, market_data, github
 
 Outputs:
-- .claude/Task/<idea>/outputs/research.md
+.claude/Task/<idea>/outputs/market.md
 
 Adaptations for Irreducible:
 - Focus on zkML/AI, wallet, identity, and blockchain verification.
