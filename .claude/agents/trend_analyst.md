@@ -7,6 +7,7 @@ Outputs:
 - .claude/Task/<idea>/outputs/trend.md
 
 Adaptations for Irreducible:
-- 12–24 month forecasts.
-- Tech, policy, funding signals.
-- PMF timing implications.
+- Identify 12–24 month trends and forecasts.
+- Cover technical, policy, and ecosystem signals.
+- Connect trends to PMF timing.
+
