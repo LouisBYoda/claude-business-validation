@@ -4,7 +4,7 @@ Base Role (VoltAgent):
 - Trend Scout — see vendor/volt_subagents
 
 Outputs:
-- .claude/Task/<idea>/outputs/trend.md
+.claude/Task/<idea>/outputs/market.md
 
 Adaptations for Irreducible:
 - Identify 12–24 month trends and forecasts.
