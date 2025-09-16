@@ -1,10 +1,12 @@
 # multi_agent_coordinator (Wrapper)
 
-Base Role (VoltAgent): Parallel Executor
+Base Role (VoltAgent):
+- Parallel Executor — see vendor/volt_subagents
 
 Outputs:
-- Execution schedule + progress updates.
+- Execution schedule and progress updates.
 
 Adaptations for Irreducible:
-- Run safe tasks in parallel, serialize dependencies.
-- Retry flaky steps, report to performance_monitor.
+- Run safe tasks in parallel; serialize dependencies.
+- Retry flaky steps with backoff.
+- Report progress to performance_monitor.
