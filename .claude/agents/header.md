@@ -1,1 +1,1 @@
-# Header Agent\n\nCoordinates workflows and hands off between agents.
+# Header Agent\n\nCoordinates agent chain for each task.

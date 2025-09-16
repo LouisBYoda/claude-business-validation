@@ -1,1 +1,1 @@
-# Product Specialist Agent\n\nFocus: feasibility, product design, specs.
+# Product Specialist Agent\n\nValidates product feasibility, specs, MVP.

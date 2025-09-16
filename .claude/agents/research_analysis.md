@@ -1,1 +1,1 @@
-# Research Analyst Agent\n\nFocus: deep research into ZK opportunities.
+# Research Analyst Agent\n\nDeep dives into opportunities.

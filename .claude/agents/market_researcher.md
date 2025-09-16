@@ -1,1 +1,1 @@
-# Market Researcher Agent\n\nFocus: TAM, segmentation, market validation.
+# Market Researcher Agent\n\nTAM/SAM/SOM, demand validation.
