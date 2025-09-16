@@ -7,6 +7,7 @@ Outputs:
 - .claude/Task/<idea>/outputs/market.md
 
 Adaptations for Irreducible:
-- TAM/SAM/SOM + sources.
-- ICPs, barriers, pricing benchmarks.
+- TAM/SAM/SOM with sources.
+- Identify ICPs, adoption barriers, and pricing benchmarks.
 - Use .claude/templates/market_template.md.
+
