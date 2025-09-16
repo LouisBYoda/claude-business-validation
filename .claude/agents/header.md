@@ -4,9 +4,10 @@ Base Role (VoltAgent):
 - Orchestrator — see vendor/volt_subagents
 
 Outputs:
-- Orchestrates agents, generates synthesis + report.md
+- Coordinates agents, manages handoffs, and generates synthesis + report.md
 
 Adaptations for Irreducible:
-- Parallelize safe steps.
-- Serialize dependent steps.
-- Enforce human approval before updating global context.
+- Parallelize safe tasks, serialize dependent ones.
+- Enforce template use for structured outputs.
+- Require human approval before updating global context.md.
+
