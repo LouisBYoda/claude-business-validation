@@ -1,36 +1,32 @@
-Claude Business Validation Agents
+cat > README.md << 'EOF'
+# Claude Business Validation Agents
 
-This repository contains a collaborative agent chain framework designed to explore and validate business opportunities for Irreducible (e.g., ZKML/AI verification, wallet verification, blockchain verification, identity verification).
+This repository contains a **collaborative agent chain framework** designed to explore and validate business opportunities for **Irreducible** (e.g., ZKML/AI verification, wallet verification, blockchain verification, identity verification).  
 
-The system uses Claude Code agents working together in chains, each with a defined role, updating a shared context, and producing structured outputs (MVP validation, TAM, competitor analysis, costs, etc.).
+The system uses **Claude Code agents** working together in chains, each with a defined role, updating a shared context, and producing structured outputs (MVP validation, TAM, competitor analysis, costs, etc.).
 
-🔑 How It Works
+---
 
-CEO chooses an idea (e.g., AI verification).
+## 🔑 How It Works
 
-Header Agent initializes a chain in .claude/Task/<idea>/.
+1. **CEO chooses an idea** (e.g., AI verification).
+2. **Header Agent** initializes a chain in `.claude/Task/<idea>/`.
+3. Specialized agents run in sequence/parallel:
+   - `research_analysis` → collects knowledge
+   - `product_specialist` → validates MVP, feasibility
+   - `market_researcher` → TAM/SAM/SOM analysis
+   - `competitive_analyst` → competitor benchmarks
+   - `trend_analyst` → future signals
+   - `data_researcher` → adoption/cost modeling
+4. Each writes into that idea’s `outputs/` folder.
+5. **Knowledge Synthesizer** merges everything into `report.md`.
+6. **Meta-agents** (task distributor, context manager, workflow orchestrator) handle orchestration, scaling, error handling, and context updates.
 
-Specialized agents run in sequence/parallel:
+---
 
-research_analysis → collects knowledge
+## 📂 Directory Structure
 
-product_specialist → validates MVP, feasibility
-
-market_researcher → TAM/SAM/SOM analysis
-
-competitive_analyst → competitor benchmarks
-
-trend_analyst → future signals
-
-data_researcher → adoption/cost modeling
-
-Each writes into that idea’s outputs/ folder.
-
-Knowledge Synthesizer merges everything into report.md.
-
-Meta-agents (task distributor, context manager, workflow orchestrator) handle orchestration, scaling, error handling, and context updates.
-
-📂 Directory Structure
+```text
 .claude/
 ├─ context.md                        # 🔑 Global living memory (shared across all ideas)
 │
@@ -124,3 +120,4 @@ Repeatable Structure: Each business idea runs in isolation under Task/<idea>.
 Scalable Workflows: Meta agents handle orchestration, parallelization, and context passing.
 
 Consistent Output: Templates ensure every idea produces a comparable PMF report.
+EOF
