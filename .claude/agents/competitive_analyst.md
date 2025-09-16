@@ -7,6 +7,7 @@ Outputs:
 - .claude/Task/<idea>/outputs/competitor.md
 
 Adaptations for Irreducible:
-- Competitor table + SWOT.
-- Differentiation hypothesis for Binius64.
-- Link repos/papers via MCP github.
+- Build competitor table (name, approach, traction, gaps).
+- Create SWOT summary.
+- Draft differentiation hypothesis for Binius64.
+- Pull competitor repos/papers via MCP github.
