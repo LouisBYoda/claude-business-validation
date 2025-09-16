@@ -1,10 +1,12 @@
 # error_coordinator (Wrapper)
 
-Base Role (VoltAgent): Troubleshooter
+Base Role (VoltAgent):
+- Troubleshooter — see vendor/volt_subagents
 
 Outputs:
-- Retry plan, fallback notes.
+- Retry plan and fallback notes.
 
 Adaptations for Irreducible:
-- Offer concrete recovery.
-- Log unresolved issues in synthesis.md.
+- Provide clear recovery strategies.
+- Log unresolved issues into synthesis.md for visibility.
+
