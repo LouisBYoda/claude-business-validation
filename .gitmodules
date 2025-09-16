@@ -1,0 +1,3 @@
+[submodule "vendor/volt_subagents"]
+	path = vendor/volt_subagents
+	url = https://github.com/VoltAgent/awesome-claude-code-subagents.git
