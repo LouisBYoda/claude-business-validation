@@ -1,8 +1,10 @@
-# multi_agent_coordinator
+# multi_agent_coordinator (Wrapper)
 
-Inputs: task graph from task_distributor
-Outputs: execution schedule, progress updates
+Base Role (VoltAgent): Parallel Executor
 
-- Run safe tasks in parallel; serialize dependent ones.
-- Retry flaky steps; backoff on repeated errors.
-- Report status to performance_monitor.
+Outputs:
+- Execution schedule + progress updates.
+
+Adaptations for Irreducible:
+- Run safe tasks in parallel, serialize dependencies.
+- Retry flaky steps, report to performance_monitor.

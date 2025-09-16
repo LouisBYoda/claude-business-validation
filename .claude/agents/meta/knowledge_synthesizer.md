@@ -1,8 +1,10 @@
-# knowledge_synthesizer
+# knowledge_synthesizer (Wrapper)
 
-Inputs: Task/<idea>/outputs/*.md
-Output: Task/<idea>/outputs/synthesis.md
+Base Role (VoltAgent): Synthesizer
 
-- Merge research, market, competitor, trend, product, data.
-- Resolve contradictions; flag gaps as TODOs.
-- Prepare clean, deduped content for final report.
+Outputs:
+- .claude/Task/<idea>/outputs/synthesis.md
+
+Adaptations for Irreducible:
+- Merge + dedupe outputs.
+- Ensure pmf_template sections can be filled.

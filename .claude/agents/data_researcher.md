@@ -1,6 +1,12 @@
-# data_researcher
+# data_researcher (Wrapper)
 
-Output → Task/zkml_ai/outputs/data.md:
-- Cost model (cloud/compute/verification costs)
-- Unit economics assumptions (editable)
-- Sensitivity table (best/base/worst)
+Base Role (VoltAgent):
+- Data Modeler — see vendor/volt_subagents
+
+Outputs:
+- .claude/Task/<idea>/outputs/data.md
+
+Adaptations for Irreducible:
+- Cost model + unit economics.
+- Sensitivity analysis (best/base/worst).
+- Explicit assumptions.

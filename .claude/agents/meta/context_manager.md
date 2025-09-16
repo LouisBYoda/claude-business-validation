@@ -1,8 +1,10 @@
-# context_manager
+# context_manager (Wrapper)
 
-Inputs: Task/<idea>/report.md
-Outputs: updates to .claude/context.md (via /update_context)
+Base Role (VoltAgent): Memory Keeper
 
-- Extract generalizable learnings only.
-- Keep global context concise; link to the report.
-- Never overwrite—append under clear headings.
+Outputs:
+- Proposed updates to .claude/context.md
+
+Adaptations for Irreducible:
+- Extract only generalizable learnings.
+- Keep context concise; link to reports.

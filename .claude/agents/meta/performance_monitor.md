@@ -1,5 +1,10 @@
-# performance_monitor
+# performance_monitor (Wrapper)
 
-- Track time per agent and per step.
-- Note repeated slow spots (e.g., TAM calc).
-- Propose optimizations to header.
+Base Role (VoltAgent): Metrics Tracker
+
+Outputs:
+- Metrics summary.
+
+Adaptations for Irreducible:
+- Highlight bottlenecks.
+- Suggest process tweaks.

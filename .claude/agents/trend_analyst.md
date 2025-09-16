@@ -1,5 +1,12 @@
-# trend_analyst
+# trend_analyst (Wrapper)
 
-Output → Task/zkml_ai/outputs/trend.md:
-- Signals (technical, policy, ecosystem)
-- 12–24 month forecasts (bullets + confidence)
+Base Role (VoltAgent):
+- Trend Scout — see vendor/volt_subagents
+
+Outputs:
+- .claude/Task/<idea>/outputs/trend.md
+
+Adaptations for Irreducible:
+- 12–24 month forecasts.
+- Tech, policy, funding signals.
+- PMF timing implications.

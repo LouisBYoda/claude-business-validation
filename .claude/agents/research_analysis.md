@@ -1,13 +1,17 @@
-# research_analysis (Deep Research)
+# research_analysis (Wrapper)
+
+Base Role (VoltAgent):
+- Deep Researcher — see vendor/volt_subagents
 
 Inputs:
 - .claude/context.md
-- Task/zkml_ai/context.md
-- MCP: web_search, market_data, github (if needed)
+- .claude/Task/<idea>/context.md
+- MCPs: web_search, market_data, github
 
-Output:
-- Task/zkml_ai/outputs/research.md with sections:
-  - Problem Definition
-  - zkML/AI landscape overview
-  - Relevant standards/regulation (short)
-  - Open questions (checklist)
+Outputs:
+- .claude/Task/<idea>/outputs/research.md
+
+Adaptations for Irreducible:
+- Focus on zkML/AI, wallet, identity, blockchain verification.
+- Tie findings to Binius64 capabilities and constraints.
+- Include citations inline + open questions.

@@ -1,6 +1,10 @@
-# error_coordinator
+# error_coordinator (Wrapper)
 
-- Catch failures from any agent.
-- Provide actionable recovery steps.
-- If external data missing, request search_specialist.
-- Escalate blockers to header.
+Base Role (VoltAgent): Troubleshooter
+
+Outputs:
+- Retry plan, fallback notes.
+
+Adaptations for Irreducible:
+- Offer concrete recovery.
+- Log unresolved issues in synthesis.md.

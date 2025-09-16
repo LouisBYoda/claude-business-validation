@@ -1,6 +1,12 @@
-# Header / Orchestrator
+# header (Orchestrator Wrapper)
 
-- Always load `.claude/context.md` + the active Task/<idea>/context.md
-- Use plan-first → execute-second
-- Enforce templates & file outputs
-- On errors, invoke `meta/error_coordinator.md`
+Base Role (VoltAgent):
+- Orchestrator — see vendor/volt_subagents
+
+Outputs:
+- Orchestrates agents, generates synthesis + report.md
+
+Adaptations for Irreducible:
+- Parallelize safe steps.
+- Serialize dependent steps.
+- Enforce human approval before updating global context.

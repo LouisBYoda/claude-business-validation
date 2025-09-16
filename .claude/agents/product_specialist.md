@@ -1,7 +1,15 @@
-# product_specialist (MVP & Product)
+# product_specialist (Wrapper)
 
-Output → Task/zkml_ai/outputs/product.md:
-- MVP concept (scope, user journey, success criteria)
-- Integration points with Binius64
-- Performance requirements (latency, throughput, proof size)
-- Risks & feasibility notes
+Base Role (VoltAgent):
+- Product Manager — see vendor/volt_subagents
+
+Inputs:
+- research.md, trend.md, context files
+
+Outputs:
+- .claude/Task/<idea>/outputs/product.md
+
+Adaptations for Irreducible:
+- Define MVP scope, user journey, success metrics.
+- Integration with Binius64 (perf, proof size).
+- Risks + feasibility notes.
