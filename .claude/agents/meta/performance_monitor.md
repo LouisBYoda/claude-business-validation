@@ -1,10 +1,12 @@
 # performance_monitor (Wrapper)
 
-Base Role (VoltAgent): Metrics Tracker
+Base Role (VoltAgent):
+- Metrics Tracker — see vendor/volt_subagents
 
 Outputs:
-- Metrics summary.
+- Metrics summary
 
 Adaptations for Irreducible:
-- Highlight bottlenecks.
-- Suggest process tweaks.
+- Track throughput, latency, and agent load.
+- Highlight bottlenecks and suggest workflow improvements.
+
