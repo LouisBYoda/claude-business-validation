@@ -1,7 +1,7 @@
 cat > README.md << 'EOF'
 # Claude Business Validation Agents
 
-This repository contains a **collaborative agent chain framework** designed to explore and validate business opportunities for **Irreducible** (e.g., ZKML/AI verification, wallet verification, blockchain verification, identity verification).  
+This repository contains a **collaborative agent chain framework** designed to explore and validate business opportunities for (e.g., ZKML/AI verification, wallet verification, blockchain verification, identity verification).  
 
 The system uses **Claude Code agents** working together in chains, each with a defined role, updating a shared context, and producing structured outputs (MVP validation, TAM, competitor analysis, costs, etc.).
 
