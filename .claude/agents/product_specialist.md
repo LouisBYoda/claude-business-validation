@@ -7,7 +7,7 @@ Inputs:
 - research.md, trend.md, context files
 
 Outputs:
-- .claude/Task/<idea>/outputs/product.md
+.claude/Task/<idea>/outputs/market.md
 
 Adaptations for Irreducible:
 - Define MVP scope, user journey, and success metrics.
