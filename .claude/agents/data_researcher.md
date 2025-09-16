@@ -7,6 +7,7 @@ Outputs:
 - .claude/Task/<idea>/outputs/data.md
 
 Adaptations for Irreducible:
-- Cost model + unit economics.
-- Sensitivity analysis (best/base/worst).
-- Explicit assumptions.
+- Build cost model + unit economics.
+- Include sensitivity analysis (best/base/worst).
+- Document explicit assumptions for reproducibility.
+
