@@ -4,7 +4,7 @@ Base Role (VoltAgent):
 - Competitor Analyst — see vendor/volt_subagents
 
 Outputs:
-- .claude/Task/<idea>/outputs/competitor.md
+.claude/Task/<idea>/outputs/market.md
 
 Adaptations for Irreducible:
 - Build competitor table (name, approach, traction, gaps).
