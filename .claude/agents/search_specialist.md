@@ -4,8 +4,10 @@ Base Role (VoltAgent):
 - Fact Checker — see vendor/volt_subagents
 
 Outputs:
-- Appends citations to target files.
+- Appends citations into relevant outputs.
 
 Adaptations for Irreducible:
-- Fill gaps with sources (papers/repos).
-- Append only, never overwrite.
+- Patch missing facts in research, market, competitor, etc.
+- Always append — never overwrite.
+- Use external sources (papers, repos, market data).
+
