@@ -1,10 +1,12 @@
 # task_distributor (Wrapper)
 
-Base Role (VoltAgent): Workflow Planner
+Base Role (VoltAgent):
+- Workflow Planner — see vendor/volt_subagents
 
 Outputs:
-- Task graph with dependencies + owners.
+- Task graph with dependencies and owners.
 
 Adaptations for Irreducible:
-- Split PMF steps into atomic tasks.
-- Label parallel vs sequential.
+- Break PMF workflow into atomic steps.
+- Clearly mark which tasks can run in parallel vs sequentially.
+
