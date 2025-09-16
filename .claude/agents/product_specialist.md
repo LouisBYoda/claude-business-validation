@@ -10,6 +10,6 @@ Outputs:
 - .claude/Task/<idea>/outputs/product.md
 
 Adaptations for Irreducible:
-- Define MVP scope, user journey, success metrics.
-- Integration with Binius64 (perf, proof size).
-- Risks + feasibility notes.
+- Define MVP scope, user journey, and success metrics.
+- Map integration with Binius64 (performance, proof size).
+- Document risks and feasibility notes.
