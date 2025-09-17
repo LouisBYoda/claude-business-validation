@@ -6,7 +6,7 @@ Base Role (VoltAgent):
 ---
 
 ## Purpose
-Aggregate outputs into a coherent synthesis and generate final PMF report.
+Aggregate outputs from all agents into a coherent synthesis and draft report.
 
 ## Inputs
 - `.claude/context.md`
@@ -14,7 +14,12 @@ Aggregate outputs into a coherent synthesis and generate final PMF report.
 - `.claude/Task/<idea>/outputs/*.md`
 
 ## Outputs
-- `.claude/Task/<idea>/outputs/synthesis.md`
-- `.claude/Task/<idea>/report.md` (via `.claude/templates/pmf_template.md`)
+- `.claude/Task/<idea>/outputs/synthesis.md` (intermediate summary)
+- `.claude/Task/<idea>/report.md` (final PMF draft using `pmf_template.md`)
+
+## Adaptations for Irreducible
+- Prioritize clarity for CEO-level review
+- Ensure synthesis highlights MVP validation, TAM, costs, risks
+
 
 
