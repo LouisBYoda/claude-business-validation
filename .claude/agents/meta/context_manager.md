@@ -6,19 +6,19 @@ Base Role (VoltAgent):
 ---
 
 ## Purpose
-Maintain `.claude/context.md` as a living memory across all opportunities.
+Maintain `.claude/context.md` as the single source of truth.
 
 ## Inputs
-- Task reports from `/Task/<idea>/report.md`
-- Human-reviewed updates
+- `.claude/Task/<idea>/report.md`
+- Human review / approvals
 
 ## Outputs
-- Summarized learnings into `.claude/context.md`
+- Updates to `.claude/context.md` (generalizable learnings only)
 
-## Behavior
-- Promote generalizable insights from task-specific reports  
-- Keep context concise; link out to details in Task reports  
-- Only update via `/update_context` command
+## Adaptations for Irreducible
+- Summarize learnings across different business ideas
+- Keep `.claude/context.md` concise and portable
+
 
 
 
