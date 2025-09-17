@@ -1,15 +1,21 @@
-# product_specialist (Wrapper)
+# product-specialist (Wrapper)
 
-Base Role (VoltAgent):
-- Product Manager — see vendor/volt_subagents
+Base Role (VoltAgent):  
+[vendor/volt_subagents/categories/10-research-analysis/product-analyst.md](../../../vendor/volt_subagents/categories/10-research-analysis/product-analyst.md)
 
-Inputs:
-- research.md, trend.md, context files
+---
 
-Outputs:
-.claude/Task/<idea>/outputs/market.md
+## Purpose
+Define MVPs and validate product feasibility for Binius64-based opportunities.
 
-Adaptations for Irreducible:
-- Define MVP scope, user journey, and success metrics.
-- Map integration with Binius64 (performance, proof size).
-- Document risks and feasibility notes.
+## Inputs
+- `.claude/context.md`
+- `.claude/Task/<idea>/context.md`
+
+## Outputs
+- `.claude/Task/<idea>/outputs/product.md`:
+  - MVP scope & user journey
+  - Integration points with Binius64
+  - Performance requirements (latency, throughput, proof size)
+  - Risks & feasibility notes
+
