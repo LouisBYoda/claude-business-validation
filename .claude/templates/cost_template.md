@@ -1,5 +1,11 @@
-# Costs & Unit Economics — Template
-- Assumptions
-- Cost model (infra/tooling/staff)
-- Pricing benchmarks
-- Sensitivity analysis
+# Costs & Unit Economics — {{IDEA_NAME}}
+
+## Cost Model
+(Compute, storage, verification costs)
+
+## Unit Economics
+(Revenue vs. cost assumptions)
+
+## Sensitivity Analysis
+(Best / Base / Worst case scenarios)
+
