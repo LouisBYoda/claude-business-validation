@@ -6,17 +6,16 @@ Base Role (VoltAgent):
 ---
 
 ## Purpose
-Automate and sequence sub-agent workflows end-to-end.
+Automate and enforce sequencing of complex workflows across agents.
 
 ## Inputs
-- Goals and tasks from Header/Orchestrator
-- Execution updates from agents
+- Validation workflow plan
+- `.claude/context.md`
 
 ## Outputs
-- Ordered workflows
-- Orchestration logs
+- Enforced step-by-step execution
+- Logs stored in `.claude/Task/<idea>/outputs/synthesis.md`
 
-## Behavior
-- Align specialist outputs with templates  
-- Manage handoffs between research → product → market → competitor → synthesis  
-- Ensure reproducibility of full validation runs
+## Adaptations for Irreducible
+- Ensure execution always follows: Research → Product → Market → Competitor → Trends → Data → Synthesis
+- Guarantee consistency across all idea validations
