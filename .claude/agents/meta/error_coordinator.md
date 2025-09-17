@@ -1,12 +1,24 @@
-# error_coordinator (Wrapper)
+# error-coordinator (Wrapper)
 
-Base Role (VoltAgent):
-- Troubleshooter — see vendor/volt_subagents
+Base Role (VoltAgent):  
+[vendor/volt_subagents/categories/09-meta-orchestration/error-coordinator.md](../../../vendor/volt_subagents/categories/09-meta-orchestration/error-coordinator.md)
 
-Outputs:
-- Retry plan and fallback notes.
+---
 
-Adaptations for Irreducible:
-- Provide clear recovery strategies.
-- Log unresolved issues into synthesis.md for visibility.
+## Purpose
+Handle errors, retries, and graceful recovery.
+
+## Inputs
+- Error signals from agents
+- Execution logs
+
+## Outputs
+- Recovery actions
+- Escalation reports
+
+## Behavior
+- Retry transient failures with backoff  
+- Escalate systemic issues to human reviewers  
+- Ensure workflow continuity despite errors
+
 
