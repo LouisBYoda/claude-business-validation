@@ -1,5 +1,11 @@
-# MVP Validation — Template
-- Problem / JTBD
-- MVP scope
-- User journey
-- Acceptance criteria & success metrics
+# MVP Validation — {{IDEA_NAME}}
+
+## Concept
+(Describe MVP scope and user journey)
+
+## Success Criteria
+(Key outcomes or acceptance metrics)
+
+## Risks & Constraints
+(List known risks, blockers, or feasibility limits)
+
