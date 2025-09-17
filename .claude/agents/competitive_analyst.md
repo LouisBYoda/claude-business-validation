@@ -1,13 +1,16 @@
-# competitive_analyst (Wrapper)
+# competitive-analyst (Wrapper)
 
-Base Role (VoltAgent):
-- Competitor Analyst — see vendor/volt_subagents
+Base Role (VoltAgent):  
+[vendor/volt_subagents/categories/10-research-analysis/competitive-analyst.md](../../../vendor/volt_subagents/categories/10-research-analysis/competitive-analyst.md)
 
-Outputs:
-.claude/Task/<idea>/outputs/market.md
+---
 
-Adaptations for Irreducible:
-- Build competitor table (name, approach, traction, gaps).
-- Create SWOT summary.
-- Draft differentiation hypothesis for Binius64.
-- Pull competitor repos/papers via MCP github.
+## Purpose
+Analyze competitors and identify Irreducible’s differentiation.
+
+## Outputs
+- `.claude/Task/<idea>/outputs/competitor.md`:
+  - Competitor table (approach, traction, gaps)
+  - SWOT summary
+  - Differentiation hypothesis
+
