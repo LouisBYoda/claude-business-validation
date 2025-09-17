@@ -6,19 +6,18 @@ Base Role (VoltAgent):
 ---
 
 ## Purpose
-Track agent and workflow performance.
+Monitor execution of validation workflows and track performance.
 
 ## Inputs
-- Execution schedule from `multi-agent-coordinator`
-- Agent outputs and timing logs
+- Logs from `multi-agent-coordinator`
+- `.claude/Task/<idea>/outputs/*`
 
 ## Outputs
-- Performance dashboard/logs
-- Bottleneck reports
+- Performance notes appended to `.claude/Task/<idea>/outputs/synthesis.md`
 
-## Behavior
-- Monitor throughput, latency, and agent utilization  
-- Detect anomalies in workflow speed or quality  
-- Feed metrics back into orchestration layer
+## Adaptations for Irreducible
+- Track throughput, latency of agent chains
+- Highlight bottlenecks (e.g. market sizing delays)
+
 
 
