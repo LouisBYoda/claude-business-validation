@@ -6,14 +6,15 @@ Base Role (VoltAgent):
 ---
 
 ## Purpose
-Aggregate and consolidate outputs from multiple agents into coherent summaries, reports, or artifacts.
+Aggregate outputs into coherent synthesis and final PMF report.
 
 ## Inputs
-- `.claude/context.md` (global context)
-- `.claude/Task/<idea>/context.md` (idea-specific)
-- `.claude/Task/<idea>/outputs/*.md` (all specialist outputs)
+- `.claude/context.md`
+- `.claude/Task/<idea>/context.md`
+- `.claude/Task/<idea>/outputs/*.md`
 
 ## Outputs
-- `.claude/Task/<idea>/outputs/synthesis.md` (intermediate consolidated notes)
-- `.claude/Task/<idea>/report.md` (final PMF report using `.claude
+- `.claude/Task/<idea>/outputs/synthesis.md`
+- `.claude/Task/<idea>/report.md` (via `.claude/templates/pmf_template.md`)
+
 
