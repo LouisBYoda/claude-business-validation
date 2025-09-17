@@ -1,13 +1,15 @@
-# search_specialist (Wrapper)
+# search-specialist (Wrapper)
 
-Base Role (VoltAgent):
-- Fact Checker — see vendor/volt_subagents
+Base Role (VoltAgent):  
+[vendor/volt_subagents/categories/10-research-analysis/search-specialist.md](../../../vendor/volt_subagents/categories/10-research-analysis/search-specialist.md)
 
-Outputs:
-- Appends citations into relevant outputs.
+---
 
-Adaptations for Irreducible:
-- Patch missing facts in research, market, competitor, etc.
-- Always append — never overwrite.
-- Use external sources (papers, repos, market data).
+## Purpose
+Fill gaps in specialist outputs with factual retrieval + citations.
+
+## Behavior
+- Patch missing facts in `.claude/Task/<idea>/outputs/*.md`
+- Append inline sources
+
 
