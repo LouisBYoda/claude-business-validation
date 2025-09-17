@@ -6,19 +6,24 @@ Base Role (VoltAgent):
 ---
 
 ## Purpose
-Size markets and validate demand.
+Analyze market size and demand for target opportunities.
 
 ## Inputs
 - `.claude/context.md`
 - `.claude/Task/<idea>/context.md`
-- MCP: market_data, surveys
+- MCPs: `market_data.json`
 
 ## Outputs
 - `.claude/Task/<idea>/outputs/market.md`:
-  - TAM/SAM/SOM with sources
-  - ICPs & adoption barriers
+  - TAM/SAM/SOM
+  - Segments & ICPs
+  - Buying criteria & adoption barriers
   - Pricing benchmarks
-  - Procurement challenges
+
+## Adaptations for Irreducible
+- Highlight adoption constraints for ZK proofs
+- Compare enterprise vs. consumer adoption paths
+
 
 
 
