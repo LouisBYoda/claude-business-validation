@@ -6,11 +6,20 @@ Base Role (VoltAgent):
 ---
 
 ## Purpose
-Model costs and validate unit economics.
+Analyze data patterns, costs, and unit economics.
+
+## Inputs
+- `.claude/context.md`
+- `.claude/Task/<idea>/context.md`
 
 ## Outputs
 - `.claude/Task/<idea>/outputs/data.md`:
-  - Cost model (infra, verification costs)
+  - Cost models
   - Unit economics assumptions
-  - Sensitivity scenarios (best/base/worst)
+  - Sensitivity analysis
+
+## Adaptations for Irreducible
+- Explicitly tie to Binius64 proof generation cost
+- Provide benchmarks for compute/storage requirements
+
 
