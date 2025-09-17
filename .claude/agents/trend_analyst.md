@@ -13,3 +13,4 @@ Identify emerging trends that shape opportunity windows.
   - Signals (tech, policy, ecosystem)
   - 12–24 month forecast with confidence levels
 
+
