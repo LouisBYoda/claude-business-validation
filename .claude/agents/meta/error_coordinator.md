@@ -6,19 +6,18 @@ Base Role (VoltAgent):
 ---
 
 ## Purpose
-Handle errors, retries, and graceful recovery.
+Handle agent or workflow errors gracefully.
 
 ## Inputs
-- Error signals from agents
-- Execution logs
+- Error logs from orchestrator/agents
 
 ## Outputs
-- Recovery actions
-- Escalation reports
+- Recovery steps
+- Notes in `.claude/Task/<idea>/outputs/synthesis.md`
 
-## Behavior
-- Retry transient failures with backoff  
-- Escalate systemic issues to human reviewers  
-- Ensure workflow continuity despite errors
+## Adaptations for Irreducible
+- Retry critical tasks up to 3 times
+- Escalate to human if validation data is missing or contradictory
+
 
 
