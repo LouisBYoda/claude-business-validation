@@ -1,13 +1,16 @@
-# data_researcher (Wrapper)
+# data-researcher (Wrapper)
 
-Base Role (VoltAgent):
-- Data Modeler — see vendor/volt_subagents
+Base Role (VoltAgent):  
+[vendor/volt_subagents/categories/10-research-analysis/data-researcher.md](../../../vendor/volt_subagents/categories/10-research-analysis/data-researcher.md)
 
-Outputs:
-.claude/Task/<idea>/outputs/market.md
+---
 
-Adaptations for Irreducible:
-- Build cost model + unit economics.
-- Include sensitivity analysis (best/base/worst).
-- Document explicit assumptions for reproducibility.
+## Purpose
+Model costs and validate unit economics.
+
+## Outputs
+- `.claude/Task/<idea>/outputs/data.md`:
+  - Cost model (infra, verification costs)
+  - Unit economics assumptions
+  - Sensitivity scenarios (best/base/worst)
 
