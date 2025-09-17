@@ -1,13 +1,15 @@
-# trend_analyst (Wrapper)
+# trend-analyst (Wrapper)
 
-Base Role (VoltAgent):
-- Trend Scout — see vendor/volt_subagents
+Base Role (VoltAgent):  
+[vendor/volt_subagents/categories/10-research-analysis/trend-analyst.md](../../../vendor/volt_subagents/categories/10-research-analysis/trend-analyst.md)
 
-Outputs:
-.claude/Task/<idea>/outputs/market.md
+---
 
-Adaptations for Irreducible:
-- Identify 12–24 month trends and forecasts.
-- Cover technical, policy, and ecosystem signals.
-- Connect trends to PMF timing.
+## Purpose
+Identify emerging trends that shape opportunity windows.
+
+## Outputs
+- `.claude/Task/<idea>/outputs/trend.md`:
+  - Signals (tech, policy, ecosystem)
+  - 12–24 month forecast with confidence levels
 
