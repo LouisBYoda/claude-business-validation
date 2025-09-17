@@ -1,12 +1,20 @@
-# knowledge_synthesizer (Wrapper)
+# knowledge-synthesizer (Wrapper)
 
-Base Role (VoltAgent):
-- Synthesizer — see vendor/volt_subagents
+Base Role (VoltAgent):  
+[vendor/volt_subagents/categories/09-meta-orchestration/knowledge-synthesizer.md](../../../vendor/volt_subagents/categories/09-meta-orchestration/knowledge-synthesizer.md)
 
-Outputs:
-- .claude/Task/<idea>/outputs/synthesis.md
+---
 
-Adaptations for Irreducible:
-- Merge and deduplicate outputs from all agents.
-- Ensure report sections can be filled via pmf_template.md.
+## Purpose
+Aggregate outputs into a coherent synthesis and generate final PMF report.
+
+## Inputs
+- `.claude/context.md`
+- `.claude/Task/<idea>/context.md`
+- `.claude/Task/<idea>/outputs/*.md`
+
+## Outputs
+- `.claude/Task/<idea>/outputs/synthesis.md`
+- `.claude/Task/<idea>/report.md` (via `.claude/templates/pmf_template.md`)
+
 
