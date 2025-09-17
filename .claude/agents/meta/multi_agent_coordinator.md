@@ -1,12 +1,23 @@
-# multi_agent_coordinator (Wrapper)
+# multi-agent-coordinator (Wrapper)
 
-Base Role (VoltAgent):
-- Parallel Executor — see vendor/volt_subagents
+Base Role (VoltAgent):  
+[vendor/volt_subagents/categories/09-meta-orchestration/multi-agent-coordinator.md](../../../vendor/volt_subagents/categories/09-meta-orchestration/multi-agent-coordinator.md)
 
-Outputs:
-- Execution schedule and progress updates.
+---
 
-Adaptations for Irreducible:
-- Run safe tasks in parallel; serialize dependencies.
-- Retry flaky steps with backoff.
-- Report progress to performance_monitor.
+## Purpose
+Enable safe parallel execution and orchestrate dependent tasks.
+
+## Inputs
+- Task graph from `task-distributor`
+- Progress signals from agents
+
+## Outputs
+- Execution schedule
+- Progress updates to `performance-monitor`
+
+## Behavior
+- Run independent tasks in parallel; serialize dependent ones  
+- Retry flaky steps with backoff  
+- Report execution status and flag bottlenecks
+
