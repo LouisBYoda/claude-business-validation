@@ -1,4 +1,4 @@
-# research-analyst (Wrapper)
+# research-analysis (Wrapper)
 
 Base Role (VoltAgent):  
 [vendor/volt_subagents/categories/10-research-analysis/research-analyst.md](../../../vendor/volt_subagents/categories/10-research-analysis/research-analyst.md)
@@ -6,18 +6,24 @@ Base Role (VoltAgent):
 ---
 
 ## Purpose
-Conduct deep research into business opportunities, with emphasis on zkML, AI, blockchain, and verification use cases.
+Perform deep research into zkML/verification opportunities and provide foundational analysis.
 
 ## Inputs
 - `.claude/context.md`
 - `.claude/Task/<idea>/context.md`
-- External MCP sources: web_search, github, market_data
+- MCPs: `web_search.json`, `market_data.json`, `github.json`
 
 ## Outputs
-- `.claude/Task/<idea>/outputs/research.md` including:
+- `.claude/Task/<idea>/outputs/research.md`:
   - Problem definition
   - Landscape overview
-  - Standards & regulations (short)
-  - Open questions checklist
+  - Regulatory standards
+  - Open questions
+
+## Adaptations for Irreducible
+- Focus on verification use cases for Binius64
+- Prioritize sources relevant to ZK + AI convergence
+- Identify where high-performance proofs matter most
+
 
 
