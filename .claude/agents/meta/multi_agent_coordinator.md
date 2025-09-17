@@ -6,18 +6,19 @@ Base Role (VoltAgent):
 ---
 
 ## Purpose
-Enable safe parallel execution and orchestrate dependent tasks.
+Coordinate execution of multiple agents, running safe tasks in parallel while serializing dependent ones.
 
 ## Inputs
 - Task graph from `task-distributor`
-- Progress signals from agents
+- `.claude/context.md`
+- `.claude/Task/<idea>/context.md`
 
 ## Outputs
 - Execution schedule
-- Progress updates to `performance-monitor`
+- Progress updates appended to `.claude/Task/<idea>/outputs/synthesis.md`
 
-## Behavior
-- Run independent tasks in parallel; serialize dependent ones  
-- Retry flaky steps with backoff  
-- Report execution status and flag bottlenecks
+## Adaptations for Irreducible
+- Ensure dependencies like Research → Product → Market are respected
+- Backoff and retry if errors occur
+
 
