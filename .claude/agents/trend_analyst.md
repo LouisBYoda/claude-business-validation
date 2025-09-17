@@ -6,11 +6,22 @@ Base Role (VoltAgent):
 ---
 
 ## Purpose
-Identify emerging trends that shape opportunity windows.
+Scan ecosystem for emerging trends and forecasts.
+
+## Inputs
+- `.claude/context.md`
+- `.claude/Task/<idea>/context.md`
+- MCPs: `web_search.json`, `market_data.json`
 
 ## Outputs
 - `.claude/Task/<idea>/outputs/trend.md`:
-  - Signals (tech, policy, ecosystem)
-  - 12–24 month forecast with confidence levels
+  - Key signals
+  - 12–24 month forecasts
+  - Confidence ratings
+
+## Adaptations for Irreducible
+- Pay attention to regulation + enterprise AI adoption
+- Highlight opportunities where ZK can be a differentiator
+
 
 
