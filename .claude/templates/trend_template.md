@@ -1,4 +1,11 @@
-# Trend Insights — Template
-- Signals (tech/policy/ecosystem)
-- 12–24 month forecast (with confidence)
-- Implications for strategy
+# Trend Analysis — {{IDEA_NAME}}
+
+## Signals
+(Emerging technologies, policy, ecosystem moves)
+
+## Forecasts
+(12–24 month outlook with confidence ratings)
+
+## Implications
+(What this means for adoption / PMF)
+
