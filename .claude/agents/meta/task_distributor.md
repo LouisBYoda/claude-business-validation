@@ -6,19 +6,19 @@ Base Role (VoltAgent):
 ---
 
 ## Purpose
-Distribute work across specialist agents efficiently.
+Split complex validation workflows into manageable subtasks and assign them to specialist agents.
 
 ## Inputs
-- Task definition from Header/Orchestrator
 - `.claude/context.md`
 - `.claude/Task/<idea>/context.md`
+- Validation workflow plan from Header agent
 
 ## Outputs
-- Agent task assignments
-- Updates to `.claude/Task/<idea>/outputs/*` (trigger downstream work)
+- Execution map (which agent does what, in what order)
+- Progress log stored in `.claude/Task/<idea>/outputs/synthesis.md`
 
-## Behavior
-- Split complex workflows into atomic subtasks  
-- Assign to the correct specialist agent  
-- Track completion and escalate failures to `error-coordinator`
+## Adaptations for Irreducible
+- Break down PMF validation into Research → Product → Market → Competitor → Trends → Data
+- Support parallelization where dependencies are minimal
+
 
